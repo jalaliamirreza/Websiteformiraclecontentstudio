@@ -1,4 +1,4 @@
-# Miracle Content Studio Website
+# Miracle Content Studio Website :
 
 AI-assisted content creation for businesses in Korea.
 
