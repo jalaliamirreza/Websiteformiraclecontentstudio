@@ -33,4 +33,12 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
+
+  build: {
+    outDir: 'dist',
+    sourcemap: true,
+  },
+
+  // For GitHub Pages, uncomment and set your repo name:
+  // base: '/your-repo-name/',
 })
