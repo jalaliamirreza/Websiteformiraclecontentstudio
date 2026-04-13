@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Miracle Content Studio</title>
+    <script>
+      // GitHub Pages SPA redirect
+      // Stores the path in sessionStorage and redirects to the root
+      // so index.html can restore it after React boots.
+      var path = window.location.pathname;
+      if (path !== '/') {
+        sessionStorage.setItem('spa_redirect', path + window.location.search);
+        window.location.replace('/');
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
